@@ -32,7 +32,7 @@ onMounted(() => {
 
     <div class="text-white mx-auto w-11/12 md:w-4/5 md:ml-30 md:mr-10 transition-all duration-1000 ease-out delay-200 mb-3"
          :class="showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'">
-      <h1 class="text-7xl font-extralight text-center md:text-start">{{typedText}}<span class="animate-ping text-sky-400 " >|</span></h1>
+      <h1 class="text-6xl font-extralight text-center md:text-start">{{typedText}}<span class="animate-ping text-sky-400 " >|</span></h1>
       <p class="mt-10 md:mt-5 text-center font-extralight">
         Hi! I’m <span class="font-normal">Muhammad Marendra Anggit Bagaskara</span>, an enthusiastic
         IT student from SMK Negeri 1 Bantul. I’m passionate about crafting modern and interactive

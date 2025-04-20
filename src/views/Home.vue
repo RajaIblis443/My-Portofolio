@@ -21,11 +21,6 @@ const handleResize = () => {
   screenWidth.value = innerWidth
 }
 
-router.afterEach(() => {
-  setTimeout(() => {
-    AOS.refresh() // Refresh AOS setelah rute berubah
-  }, 500)
-})
 </script>
 
 <template>
@@ -36,7 +31,8 @@ router.afterEach(() => {
     <div class="bg-white flex flex-col rounded-t-[3rem] md:rounded-t-[6rem]"
          data-aos="fade-up"
          data-aos-duration="1000"
-         data-aos-delay="500"
+         data-aos-delay="200"
+
          data-aos-once="true">
       <h1 class="text-6xl text-center">My Projects</h1>
       <p class="text-8xl font-semibold text-center">Coming Soon</p>
@@ -45,5 +41,4 @@ router.afterEach(() => {
 </template>
 
 <style scoped>
-/* Tidak perlu perubahan untuk style jika hanya animasi */
 </style>
