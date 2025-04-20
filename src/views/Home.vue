@@ -17,6 +17,5 @@ const screenWidth = ref(innerWidth)
 </template>
 
 <style scoped>
-*{
-}
+
 </style>
