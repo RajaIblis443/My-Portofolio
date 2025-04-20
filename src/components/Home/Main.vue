@@ -30,7 +30,7 @@ onMounted(() => {
       <img src="@/assets/Laptop.png" class="w-11/12 mx-auto drop-shadow-2xl" alt="Maskot" />
     </div>
 
-    <div class="text-white mx-auto w-11/12 md:w-4/5 md:ml-30 md:mr-10 transition-all duration-1000 ease-out delay-200"
+    <div class="text-white mx-auto w-11/12 md:w-4/5 md:ml-30 md:mr-10 transition-all duration-1000 ease-out delay-200 mb-3"
          :class="showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'">
       <h1 class="text-7xl font-extralight text-center md:text-start">{{typedText}}<span class="animate-ping text-sky-400 " >|</span></h1>
       <p class="mt-10 md:mt-5 text-center font-extralight">
@@ -43,7 +43,7 @@ onMounted(() => {
         write cleaner, smarter code — every keystroke is a step ton    ward becoming a world-class
         developer.
       </p>
-      <p class="mt-5 text-center font-extralight text-gray-400">
+      <p class="mt-5 text-center font-extralight text-gray-400 mb-5">
         Halo! Saya <span class="font-normal">Muhammad Marendra Anggit Bagaskara</span>, seorang siswa
         jurusan Rekayasa Perangkat Lunak di SMK Negeri 1 Bantul. Saya memiliki ketertarikan tinggi
         dalam membangun aplikasi yang modern dan interaktif menggunakan teknologi seperti

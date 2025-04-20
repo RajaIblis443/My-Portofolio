@@ -3,7 +3,7 @@ import { reactive, ref } from 'vue'
 import { SocialMedia } from '@/components/Home/SocialMedia.js'
 
 const isHovered = ref(false)
-const links = reactive(SocialMedia)
+const links = SocialMedia
 </script>
 
 <template>
